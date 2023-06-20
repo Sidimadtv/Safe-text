@@ -1,0 +1,64 @@
+{
+    "design": {
+        "androidChrome": {
+            "assets": {
+                "legacyIcon": false,
+                "lowResolutionIcons": false
+            },
+            "manifest": {
+                "declared": true,
+                "display": "standalone",
+                "name": "Vault",
+                "onConflict": "override",
+                "orientation": "notSet"
+            },
+            "pictureAspect": "noChange",
+            "themeColor": "#fcedb3"
+        },
+        "desktopBrowser": {
+            "backgroundColor": "#fcedb3",
+            "backgroundRadius": 0.25,
+            "design": "background",
+            "imageScale": 0.8
+        },
+        "ios": {
+            "assets": {
+                "declareOnlyDefaultIcon": true,
+                "ios6AndPriorIcons": false,
+                "ios7AndLaterIcons": false,
+                "precomposedIcons": false
+            },
+            "backgroundColor": "#fcedb3",
+            "margin": "25%",
+            "pictureAspect": "backgroundAndMargin"
+        },
+        "safariPinnedTab": {
+            "pictureAspect": "blackAndWhite",
+            "themeColor": "#f7cf30",
+            "threshold": 60
+        },
+        "windows": {
+            "assets": {
+                "windows10Ie11EdgeTiles": {
+                    "big": false,
+                    "medium": true,
+                    "rectangle": false,
+                    "small": false
+                },
+                "windows80Ie10Tile": false
+            },
+            "backgroundColor": "#fadf75",
+            "onConflict": "override",
+            "pictureAspect": "noChange"
+        }
+    },
+    "iconsPath": "/vault/icons",
+    "masterPicture": "icon.svg",
+    "settings": {
+        "errorOnImageTooSmall": false,
+        "htmlCodeFile": false,
+        "readmeFile": false,
+        "scalingAlgorithm": "Mitchell",
+        "usePathAsIs": false
+    }
+}

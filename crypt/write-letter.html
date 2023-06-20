@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Write Letter</title>
+        <link rel="stylesheet" href="src/vendor/bulma.min.css" />
+        <link rel="stylesheet" href="src/vendor/icomoon.css" />
+        <script src="src/WriteLetter.js" type="module"></script>
+    </head>
+
+    <body>
+        <section class="section">
+            <div class="container">
+                <h1 class="title">Write Letter</h1>
+                <div class="field">
+                    <div class="control">
+                        <div class="buttons is-right">
+                            <button id="letter-lock" class="button is-large is-link is-outlined">
+                                <span class="icon is-small">
+                                    <i class="icon-lock"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="letter" class="label">Letter</label>
+                    <div class="control">
+                        <textarea
+                            id="letter"
+                            name="letter"
+                            rows="14"
+                            class="textarea"
+                            style="
+                                font-family: Consolas, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono',
+                                    'Bitstream Vera Sans Mono', 'Courier New', monospace;
+                            "
+                        ></textarea>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

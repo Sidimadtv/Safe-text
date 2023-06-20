@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>New Letter</title>
+        <link rel="stylesheet" href="src/vendor/bulma.min.css" />
+        <link rel="stylesheet" href="src/vendor/icomoon.css" />
+        <script src="src/NewLetter.js" type="module"></script>
+    </head>
+
+    <body>
+        <section class="section">
+            <div class="container">
+                <h1 class="title">New Letter</h1>
+                <div class="field">
+                    <label for="password" class="label">Password</label>
+                    <div class="control">
+                        <div class="field has-addons">
+                            <div class="control has-icons-left is-expanded">
+                                <input id="password" name="password" type="password" class="input is-large" readonly />
+                                <span class="icon is-small is-left">
+                                    <i class="icon-key"></i>
+                                </span>
+                            </div>
+                            <div class="control">
+                                <button id="password-hide" class="button is-large is-info is-outlined">
+                                    <span class="icon is-small">
+                                        <i class="icon-eye-blocked"></i>
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="control">
+                                <button id="password-copy" class="button is-large is-info is-outlined">
+                                    <span class="icon is-small">
+                                        <i class="icon-copy"></i>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="help">Save this password to later unlock the letter.</p>
+                </div>
+                <div class="field">
+                    <label for="link" class="label">Letter link</label>
+                    <div class="control">
+                        <div class="field has-addons">
+                            <div class="control has-icons-left is-expanded">
+                                <input id="link" name="link" type="text" class="input is-large" readonly />
+                                <span class="icon is-small is-left">
+                                    <i class="icon-envelop"></i>
+                                </span>
+                            </div>
+                            <div class="control">
+                                <button id="link-copy" class="button is-large is-info is-outlined">
+                                    <span class="icon is-small">
+                                        <i class="icon-copy"></i>
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="control">
+                                <button id="link-open" class="button is-large is-link is-outlined">
+                                    <span class="icon is-small">
+                                        <i class="icon-arrow-right"></i>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="help">Send this link to a friend so he can write back a letter only you can read.</p>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
